@@ -1,3 +1,2 @@
 import streamlit as st
-name = "Alex"
-st.title(f"My name is {name}.")
+name = st.text_input("enter your name") 
