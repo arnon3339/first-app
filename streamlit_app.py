@@ -7,4 +7,4 @@ option = st.selectbox(
     "select character?",
     ("Lelouch", "Itachi Uchiha", "Sorawong", "Jesus", "mahatma Gandhi"),
 )
-
+st.image("Picture1.png", caption="Sunrise by the mountains")
