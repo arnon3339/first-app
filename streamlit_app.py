@@ -7,4 +7,7 @@ option = st.selectbox(
     "select character?",
     ("Lelouch", "Itachi Uchiha", "Sorawong", "Jesus", "mahatma Gandhi"),
 )
-st.image("Picture1.png", caption="Sunrise by the mountains")
+characters = {"Lelouch":"Picture1.png", "Itachi Uchiha":"Picture2.png", 
+              "Sorawong":"Picture3.png", "Jesus":"Picture4.png", 
+              "mahatma Gandhi":"Picture5.png"}
+st.image(characters[option])
