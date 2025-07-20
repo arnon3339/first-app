@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.tittle("agent archives")
+st.title("agent archives")
