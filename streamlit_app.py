@@ -30,4 +30,4 @@ quote = {"Lelouch":"If the king doesn't move, then his subjects won't follow.\nT
               "Sorawong":" ",
          "Jesus":"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life", 
               "mahatma Gandhi":"Be the change that you wish to see in the world.\nLive as if you were to die tomorrow. Learn as if you were to live forever."}
-st.write(quote[option])
+st.write(*quote[option]*)
