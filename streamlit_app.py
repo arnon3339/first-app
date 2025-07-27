@@ -23,6 +23,7 @@ Job = {"Lelouch":"leads a rebellion against the Holy Britannian Empire and becom
               "Sorawong":"Minister of tourism and sports in Thailand ",
        "Jesus":"Jewish preacher and religious leader", 
               "mahatma Gandhi":"Freedom fighter, Advocate, Politition, Activist, revolutionary, Journalist, and lawyer."}
+st.write("**Job**")
 st.write(Job[option])
 quote = {"Lelouch":"If the king doesn't move, then his subjects won't follow.\nThe only ones who should kill, are those who are prepared to be killed.",
          "Itachi Uchiha":"People's lives don't end when they die. It ends when they lose faith. Those who cannot acknowledge their true self eventually fail. I won't put myself above you and tell you this and that, it's too late.", 
