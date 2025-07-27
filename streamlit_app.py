@@ -17,3 +17,9 @@ done = {"Lelouch":"sacrificed himself for world peace",
         "Jesus":"healing the sick, feeding the hungry, and ultimately sacrificing himself for the salvation of humanity.", 
               "mahatma Gandhi":"advocacy of social justice and equality. His actions resulted in the end of British colonial rule in India and inspired movements for civil rights and freedom around the world. Creating a culture of peace, in proving the effectiveness of non-violent non-cooperation."}
 st.write(done[option])
+Job = {"Lelouch":"leads a rebellion against the Holy Britannian Empire and becomes 99th emperor Britannian Empire.",
+       "Itachi Uchiha":"Anbu captain and akaski member", 
+              "Sorawong":"Minister of tourism and sports in Thailand ",
+       "Jesus":"Jewish preacher and religious leader", 
+              "mahatma Gandhi":"Freedom fighter, Advocate, Politition, Activist, revolutionary, Journalist, and lawyer."}
+st.write(Job[option])
