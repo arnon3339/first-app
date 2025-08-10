@@ -9,14 +9,18 @@ st.title("agent archives")
 name = st.text_input("enter your name")
 # show name from name variable 
 st.write(f"welcome {name}") 
+# select character to option variable
 option = st.selectbox(
     "select character?",
     ("Lelouch", "Itachi Uchiha", "Sorawong", "Jesus", "mahatma Gandhi"),
 )
+# image variable 
 characters = {"Lelouch":"Picture1.png", "Itachi Uchiha":"Picture2.png", 
               "Sorawong":"Picture3.png", "Jesus":"Picture4.png", 
               "mahatma Gandhi":"Picture5.png"}
+# show image variable
 st.image(characters[option], width=550)
+# what they have done variable 
 done = {"Lelouch":"sacrificed himself for world peace",
         "Itachi Uchiha":"Itachi Uchiha made the ultimate sacrifice for the greater good by eliminating his entire clan, the Uchiha, except for his younger brother Sasuke. This was done to prevent a coup d'état by the Uchiha against Konohagakure (the Hidden Leaf Village) which would have led to a devastating war. (he prevented a war)", 
               "Sorawong":"help the community and the sport industry bringing lots of events to Thailand",
