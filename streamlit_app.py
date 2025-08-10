@@ -3,8 +3,11 @@
 # import streamlit package to source code
 import streamlit as st
 
+# show website title 
 st.title("agent archives")
+# enter your name to name variable 
 name = st.text_input("enter your name")
+# show name from name variable 
 st.write(f"welcome {name}") 
 option = st.selectbox(
     "select character?",
