@@ -42,10 +42,10 @@ st.write("**Job**")
 # show job
 st.write(Job[option])
 # quote variable 
-quote = {"Lelouch":"*If the king doesn't move, then his subjects won't follow.\nThe only ones who should kill, are those who are prepared to be killed.*",
-         "Itachi Uchiha":"*People's lives don't end when they die. It ends when they lose faith. Those who cannot acknowledge their true self eventually fail. I won't put myself above you and tell you this and that, it's too late.*", 
+quote = {"Lelouch":"### If the king doesn't move, then his subjects won't follow.\nThe only ones who should kill, are those who are prepared to be killed.",
+         "Itachi Uchiha":"### People's lives don't end when they die. It ends when they lose faith. Those who cannot acknowledge their true self eventually fail. I won't put myself above you and tell you this and that, it's too late.", 
               "Sorawong":" ",
-         "Jesus":"*For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life*", 
-              "mahatma Gandhi":"*Be the change that you wish to see in the world.\nLive as if you were to die tomorrow. Learn as if you were to live forever.*"}
+         "Jesus":"### For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life", 
+              "mahatma Gandhi":"### Be the change that you wish to see in the world.\nLive as if you were to die tomorrow. Learn as if you were to live forever."}
 #show quote 
-st.write(f"### *{quote[option]}")
+st.write(quote[option])
